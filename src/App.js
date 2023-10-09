@@ -1,13 +1,8 @@
-// import logo from './logo.svg';
 import React, { useState } from 'react';
 import './App.css';
 
 import NavBar from './components/navbar';
 import HomePage from './components/homepage';
-
-
-
-
 
 function App() {
   const [selectedPage, setPage] = useState('homePage');
