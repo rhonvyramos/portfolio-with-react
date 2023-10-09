@@ -6,13 +6,18 @@
   height: 1080px;
 }
 
-#body_header, #body_main, #body_footer {
-  height: 34%;
+#body_main {
+  height: 70%;
+  width: 100%;
+}
+
+#body_header, #body_footer {
+  height: 15%;
   width: 100%;
 }
 
 #body_header {
-  background-color: rgb(255, 242, 216);
+  background-color: rgb(234, 215, 187);
 }
 
 #body_main {

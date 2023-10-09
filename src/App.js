@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 
-import NavBar from './components/navbar';
-import HomePage from './components/homepage';
 import PageContainer from './components/PageContainer';
 
 function App() {
