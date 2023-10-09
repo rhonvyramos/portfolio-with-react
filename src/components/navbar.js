@@ -1,24 +1,33 @@
 import React from "react";
 import "../styles/navbar.css"
 
-export default function NavBar() {
+export default function NavBar({selectedPage, handlePageChange}) {
     return (
         <nav id="header_navbar">
             <section id="navbar_selections">
                 <div>
-                    <a href="#">Home</a>
+                    <a href="#home"
+                    onClick={() => handlePageChange('Home')}
+                    className={selectedPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                    >Home</a>
                 </div>
                 <div>
-                    <a href="#">Login</a>
+                    <a href="#resume"
+                    onClick={() => handlePageChange('Resume')}
+                    className={selectedPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                    >Resume</a>
                 </div>
                 <div>
-                    <a href="#">Register</a>
+                    <a href="#project"
+                    onClick={() => handlePageChange('Projects')}
+                    className={selectedPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                    >Projects</a>
                 </div>
                 <div>
-                    <a href="#">About</a>
-                </div>
-                <div>
-                    <a href="#">Contact</a>
+                    <a href="#contact"
+                    onClick={() => handlePageChange('Contacts')}
+                    className={selectedPage === 'Contacts' ? 'nav-link active' : 'nav-link'}
+                    >Contact</a>
                 </div>
             </section>
         </nav>
