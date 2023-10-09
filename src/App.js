@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    /*<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +18,16 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div>*/
+
+    <section id="content_body">
+      <section id="body_header">
+      </section>
+      <section id="body_main">
+      </section>
+      <section id="body_footer">
+      </section>
+    </section>
   );
 }
 
