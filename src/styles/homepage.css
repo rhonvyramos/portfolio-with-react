@@ -1,3 +1,11 @@
+#homepage_body div {
+    margin: 10px;
+}
+
 #homepage_h1 {
-    font-size: 108px;
+    font-size: 72px;
+}
+
+#homepage_body p {
+    font-size: 36px;
 }
