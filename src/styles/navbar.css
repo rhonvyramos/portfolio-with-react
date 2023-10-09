@@ -1,0 +1,21 @@
+#body_header #header_navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 325px;
+}
+
+#navbar_selections {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+
+#navbar_selections div {
+
+    margin: 10px;
+}
+
+div a {
+    color: white;
+}
