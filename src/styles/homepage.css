@@ -1,11 +1,11 @@
-#homepage_body div {
+.text_margin {
     margin: 10px;
 }
 
-#homepage_h1 {
+.text_header {
     font-size: 72px;
 }
 
-#homepage_body p {
+.text_paragraph {
     font-size: 36px;
 }
