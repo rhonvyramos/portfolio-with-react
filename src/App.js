@@ -19,6 +19,12 @@ function App() {
         <PageContainer />
       </section>
       <section id="body_footer">
+        <section id="footer_icon_links">
+          <div id="link_name" className="footer_icon"></div>
+          <div id="link_email" className="footer_icon"></div>
+          <div id="link_github" className="footer_icon"></div>
+          <div id="link_icon" className="footer_icon"></div>
+        </section>
       </section>
     </section>
   );
