@@ -15,6 +15,7 @@
 #body_header, #body_footer {
   height: 15%;
   width: 100%;
+
 }
 
 #body_header {
@@ -23,6 +24,7 @@
 
 #body_main {
   background-color: rgb(188, 163, 127);
+  box-shadow: 0px 10px 10px inset rgb(27, 27, 27);
 }
 
 #body_footer {
@@ -30,6 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 10px 10px inset rgb(27, 27, 27);
 }
 
 /* header styling */
