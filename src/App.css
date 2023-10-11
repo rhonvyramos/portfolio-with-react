@@ -58,4 +58,16 @@
   height: 50px;
   width: 150px;
   background-color: aqua;
+  box-shadow: 10px 10px 10px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_icon p, .footer_icon a {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
 }
