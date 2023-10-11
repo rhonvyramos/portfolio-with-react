@@ -14,3 +14,4 @@ The user can explore the various tabs and links provided by the project. All tha
 
 ## Screenshot
 
+![Alt text](image.png)
