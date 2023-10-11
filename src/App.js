@@ -9,6 +9,11 @@ function App() {
   return (
     <section id="content_body">
       <section id="body_header">
+        <section id='header_introduction'>
+          <p id='introduction_text'>
+            Hello, my name is Rhon Vincent Ramos! Go ahead and explore my portfolio to checkout my experience!
+          </p>
+        </section>
       </section>
       <section id="body_main">
         <PageContainer />

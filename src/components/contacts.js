@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/homepage.css"
 
 export default function ContactPage({selectedPage, setPage}) {
     console.log("Selected page is: " + selectedPage);

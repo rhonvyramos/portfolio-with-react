@@ -27,3 +27,14 @@
 #body_footer {
   background-color: rgb(17, 57, 70);
 }
+
+#header_introduction {
+  margin: 10px;
+  position: relative;
+  top: 110px
+}
+
+#introduction_text {
+  font-weight: bold;
+  font-size: 18px;
+}
